@@ -3,7 +3,7 @@
 <body>
 
 <%
-    int hour = LocalTime.now().getHour();
+	int hour = 9;
     String name = "Ivan Ideal";
     String msg = (hour < 12)
         ? "Good morning, " + name + ", Welcome to COMP367"
